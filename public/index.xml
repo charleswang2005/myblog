@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CharlesWang</title>
+    <link>http://47.103.53.79:80/</link>
+    <description>Recent content on CharlesWang</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 07 Aug 2026 13:04:22 +0800</lastBuildDate>
+    <atom:link href="http://47.103.53.79:80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://47.103.53.79:80/posts/hello-world/</link>
+      <pubDate>Fri, 07 Aug 2026 13:04:22 +0800</pubDate>
+      <guid>http://47.103.53.79:80/posts/hello-world/</guid>
+      <description>&lt;p&gt;helloworld&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
