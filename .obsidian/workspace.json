@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/未命名.md",
+                "file": "content/posts/终章.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "终章"
             }
           }
         ],
@@ -226,7 +226,7 @@
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
     "content/posts/人生啊.md",
-    "content/posts/未命名.md",
+    "content/posts/终章.md",
     "content/posts/hello-world.md",
     "content/posts/测试文章.md",
     "0309.jpg",
