@@ -43,3 +43,25 @@ params:
   ShowToc: true
   TocOpen: true
   comments: true
+  profileMode:
+    enabled: true
+    title: "CharlesWang"
+    subtitle: "👋你好呀 欢迎来访"
+    imageUrl: "https://charleswang.top/oss/blog/avatar.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: "avatar"
+    buttons:
+      - name: 归档
+        url: /archive
+      - name: 标签
+        url: /tags
+      - name: 友链
+        url: /links
+  socialIcons:
+    - name: github
+      url: "https://github.com/charleswang2005"
+    - name: email
+      url: "mailto:charleswang2005@gmail.com"
+    - name: rss
+      url: "/index.xml"
