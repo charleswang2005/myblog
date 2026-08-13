@@ -39,3 +39,4 @@ params:
   hideFooter: true
   ShowToc: true
   TocOpen: true
+  comments: true
