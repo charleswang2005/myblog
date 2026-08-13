@@ -34,6 +34,9 @@ menu:
       weight: 4
 
 params:
+  description: "CharlesWang 的个人博客 - 记录技术、生活与思考"
+  author: "CharlesWang"
+  keywords: ["博客", "CharlesWang", "技术", "个人博客"]
   busuanzi:
     enable: true
   hideFooter: true

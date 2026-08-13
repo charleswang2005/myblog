@@ -225,6 +225,8 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "static/robots.txt",
+    "static",
     "layouts/partials/comments.html",
     "content/links.md",
     "assets/css/extended/code.css",
