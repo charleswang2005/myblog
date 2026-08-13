@@ -159,6 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/posts/测试文章.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -178,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -197,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "38abad675b9e7d20",
+  "active": "b73a5febd1640853",
   "lastOpenFiles": [
     "0309.jpg",
     "content/posts/大开大合.md",
