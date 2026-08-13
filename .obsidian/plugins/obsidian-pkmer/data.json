@@ -1,0 +1,14 @@
+{
+  "token": "",
+  "refreshToken": "",
+  "auth": {
+    "tokenExpiresAt": 1802188732000,
+    "userInfo": {
+      "sub": "a208ca61-27e3-4396-90d8-d546a66d637f",
+      "name": "120806416@qq.com",
+      "email": "120806416@qq.com",
+      "avatar": null
+    },
+    "pendingOAuthSession": null
+  }
+}
