@@ -25,3 +25,5 @@ params:
   busuanzi:
     enable: true
   hideFooter: true
+  ShowToc: true
+  TocOpen: true
