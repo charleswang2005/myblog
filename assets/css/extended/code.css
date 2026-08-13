@@ -1,0 +1,46 @@
+/* mac 风格代码块 */
+.highlight {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    background: var(--code-bg);
+    border-bottom: 1px solid var(--border);
+    z-index: 0;
+}
+
+.highlight::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fc625d;
+    box-shadow:
+        20px 0 0 #fdbc40,
+        40px 0 0 #35cd4b;
+    z-index: 1;
+}
+
+/* 代码块内容下移，留出顶部空间 */
+.highlight > pre,
+.highlight > .chroma {
+    padding-top: 38px !important;
+    position: relative;
+    z-index: 1;
+}
+
+/* 行号样式 */
+.linenos {
+    padding-top: 38px !important;
+}

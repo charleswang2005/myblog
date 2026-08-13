@@ -1,7 +1,16 @@
-baseURL: http://charleswang.top/
+baseURL: https://charleswang.top/
 languageCode: zh-cn
 title: CharlesWang
 theme: ["PaperMod"]
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block: [['$$', '$$'], ['\\[', '\\]']]
+          inline: [['$', '$'], ['\\(', '\\)']]
 
 outputs:
   home:
@@ -20,6 +29,9 @@ menu:
     - name: 📦归档
       url: /archive
       weight: 3
+    - name: 🔗友链
+      url: /links
+      weight: 4
 
 params:
   busuanzi:
