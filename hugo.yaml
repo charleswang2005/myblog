@@ -69,8 +69,8 @@ params:
         url: /archive
       - name: 标签
         url: /tags
-      - name: 友链
-        url: /links
+    - name: 友链
+      url: /links
   socialIcons:
     - name: github
       url: "https://github.com/charleswang2005"
@@ -78,3 +78,5 @@ params:
       url: "mailto:charleswang2005@gmail.com"
     - name: rss
       url: "/index.xml"
+    - name: douban
+      url: "https://www.douban.com/people/你的豆瓣ID/"

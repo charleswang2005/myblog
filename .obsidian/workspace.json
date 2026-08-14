@@ -200,6 +200,7 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "layouts/_partials/social_icons.html",
     "layouts/archives.html",
     "content/posts/hello-world.md",
     "content/posts/助学贷款申请过程（生源地&远程办理）.md",
@@ -225,7 +226,6 @@
     "content/links.md",
     "assets/css/extended/code.css",
     "assets/css/extended/top.css",
-    "assets/css/extended/toc.css",
     "0309.jpg"
   ]
 }
