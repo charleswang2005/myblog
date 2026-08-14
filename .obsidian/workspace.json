@@ -38,12 +38,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Python 程序设计.md",
+                "file": "content/posts/Python程序设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python 程序设计"
+              "title": "Python程序设计"
             }
           }
         ],
@@ -60,12 +60,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Python 程序设计.md",
+                "file": "content/posts/Python程序设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python 程序设计"
+              "title": "Python程序设计"
             }
           }
         ]
@@ -247,8 +247,9 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "layouts/partials/toc.html",
     "content/posts/终章.md",
-    "content/posts/Python 程序设计.md",
+    "content/posts/Python程序设计.md",
     "static/favicon.ico",
     "static/favicon-32x32.png",
     "static/favicon-16x16.png",
