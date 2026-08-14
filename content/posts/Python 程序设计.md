@@ -1,8 +1,8 @@
 ---
 draft: false
-title: python期末
+title: Python 程序设计
 date cre: 2026-08-14T12:51:19+08:00
-lastmod: 2026-08-14T13:45:53+08:00
+lastmod: 2026-08-14T13:52:56+08:00
 tags: [期末]
 ---
 

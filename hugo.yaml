@@ -1,6 +1,6 @@
 baseURL: https://charleswang.top/
 languageCode: zh-cn
-title: CharlesWang
+title: CharlesWang个人博客
 theme: ["PaperMod"]
 
 frontmatter:
