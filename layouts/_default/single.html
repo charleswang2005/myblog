@@ -20,13 +20,9 @@
     </div>
     {{- end }}
     {{- if not (.Param "hideMeta") }}
-    {{ if .Site.Params.busuanzi.enable -}}
-<div class="meta-item">&nbsp·&nbsp
-阅读量 <span id="busuanzi_value_page_pv"></span>
-</div>
-{{- end }}    
     <div class="post-meta">
       {{- partial "post_meta.html" . -}}
+      &nbsp;·&nbsp;阅读量 <span id="page-views">-</span>
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}

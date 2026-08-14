@@ -10,11 +10,32 @@
 <style>
 body {
     font-family: 'Lora', 'Noto Serif SC', serif;
+    font-size: 18px;
 }
 code, pre {
     font-family: 'Source Code Pro', monospace;
 }
+.post-meta {
+    font-size: 14px;
+    color: var(--secondary);
+}
 </style>
+
+<!-- Umami 页面阅读量 -->
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+    var el = document.getElementById('page-views');
+    if (!el) return;
+    fetch('/pageviews.json')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            var path = window.location.pathname;
+            var views = data[path] || 0;
+            el.textContent = views;
+        })
+        .catch(function() { el.textContent = '-'; });
+});
+</script>
 
 <!-- Umami 网站统计 -->
 <script async src="https://umami.charleswang.top/script.js" data-website-id="b735bf25-f15d-42a7-acde-8bd41337f467"></script>
