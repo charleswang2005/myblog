@@ -16,5 +16,14 @@
       "key": "1"
     }
   ],
-  "workspace:goto-tab-1": []
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ]
 }

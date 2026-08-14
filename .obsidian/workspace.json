@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/助学贷款申请过程（生源地&远程办理）.md",
+                "file": "content/posts/考试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "助学贷款申请过程（生源地&远程办理）"
+              "title": "考试"
             }
           }
         ]
@@ -200,11 +200,12 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "content/posts/助学贷款申请过程（生源地&远程办理）.md",
+    "content/posts/考试.md",
     "layouts/partials/social_icons.html",
     "layouts/_partials/social_icons.html",
     "layouts/archives.html",
     "content/posts/hello-world.md",
-    "content/posts/助学贷款申请过程（生源地&远程办理）.md",
     "content/posts/终章.md",
     "content/posts/人生啊.md",
     "content/posts/你好中国.md",
@@ -225,7 +226,6 @@
     "static",
     "layouts/partials/comments.html",
     "content/links.md",
-    "assets/css/extended/code.css",
     "0309.jpg"
   ]
 }
