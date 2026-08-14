@@ -3,6 +3,15 @@ languageCode: zh-cn
 title: CharlesWang
 theme: ["PaperMod"]
 
+frontmatter:
+  lastmod:
+    - :git
+    - lastmod
+    - date
+    - :fileModTime
+
+enableGitInfo: true
+
 markup:
   goldmark:
     extensions:

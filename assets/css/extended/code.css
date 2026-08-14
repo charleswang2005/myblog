@@ -44,3 +44,74 @@
 .linenos {
     padding-top: 38px !important;
 }
+
+/* 复制按钮 */
+.copy-code {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    z-index: 2;
+    padding: 2px 10px;
+    font-size: 12px;
+    color: var(--secondary);
+    background: var(--tertiary);
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.highlight:hover .copy-code,
+pre:hover .copy-code {
+    opacity: 1;
+}
+
+/* chroma Dracula 语法高亮配色 */
+.chroma { color: #e2e4e5; background-color: #282a36; }
+.chroma .err { color: #ff5c57; }
+.chroma .lnlinks { outline: none; text-decoration: none; color: inherit; }
+.chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+.chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+.chroma .hl { background-color: #3d3f4a; }
+.chroma .lnt, .chroma .ln { white-space: pre; user-select: none; margin-right: .4em; padding: 0 .4em; color: #7f7f7f; }
+.chroma .k, .chroma .kc, .chroma .kn, .chroma .kp, .chroma .kr { color: #ff6ac1; }
+.chroma .kd { color: #ff5c57; }
+.chroma .kt { color: #9aedfe; }
+.chroma .na { color: #57c7ff; }
+.chroma .nb, .chroma .bp { color: #9aedfe; }
+.chroma .nc { color: #f9f5ce; }
+.chroma .no { color: #9aedfe; }
+.chroma .nd { color: #ff6ac1; }
+.chroma .ni { color: #f9f5ce; }
+.chroma .ne { color: #ff9f43; }
+.chroma .nf { color: #57c7ff; }
+.chroma .nl { color: #f9f5ce; }
+.chroma .nn { color: #f9f5ce; }
+.chroma .nx { color: #f9f5ce; }
+.chroma .nt { color: #ff6ac1; }
+.chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi { color: #f9f5ce; }
+.chroma .s, .chroma .sa, .chroma .sb, .chroma .sc, .chroma .dl, .chroma .sd, .chroma .s2 { color: #5af78e; }
+.chroma .se { color: #ff9f43; }
+.chroma .sh { color: #5af78e; }
+.chroma .si, .chroma .sx { color: #5af78e; }
+.chroma .sr { color: #ff6ac1; }
+.chroma .s1 { color: #5af78e; }
+.chroma .ss { color: #5af78e; }
+.chroma .m, .chroma .mb, .chroma .mf, .chroma .mh, .chroma .mi, .chroma .il { color: #ff9f43; }
+.chroma .o { color: #ff6ac1; }
+.chroma .ow { color: #ff6ac1; }
+.chroma .p { color: #e2e4e5; }
+.chroma .c, .chroma .ch, .chroma .cm, .chroma .c1 { color: #6272a4; font-style: italic; }
+.chroma .cp { color: #ff6ac1; }
+.chroma .cs { color: #6272a4; font-style: italic; }
+.chroma .cpf { color: #ff6ac1; }
+.chroma .gd { color: #ff5c57; }
+.chroma .ge { text-decoration: underline; }
+.chroma .gh { color: #9aedfe; font-weight: bold; }
+.chroma .gi { color: #5af78e; }
+.chroma .go { color: #e2e4e5; }
+.chroma .gp { color: #6272a4; }
+.chroma .gr, .chroma .gt { color: #ff5c57; }
+.chroma .gs { font-weight: bold; }
+.chroma .gu { color: #9aedfe; font-weight: bold; }
+.chroma .w { color: #e2e4e5; }

@@ -1,18 +1,14 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-    {{- $scratch.Add "meta" (slice (printf "<span>发表于%s</span>" (.Date.Format "1月2日"))) }}
+    {{- $scratch.Add "meta" (slice (printf "<span>发表于%s年%d月%d日</span>" (.Date.Format "2006") (.Date.Format "1") (.Date.Format "2"))) }}
 {{- end }}
 
 {{- if and (not .Lastmod.IsZero) (not (.Lastmod.Equal .Date)) -}}
-    {{- $scratch.Add "meta" (slice (printf "<span>更新于%s</span>" (.Lastmod.Format "1月2日"))) }}
+    {{- $scratch.Add "meta" (slice (printf "<span>更新于%s年%d月%d日</span>" (.Lastmod.Format "2006") (.Lastmod.Format "1") (.Lastmod.Format "2"))) }}
 {{- end }}
 
-{{- if (.Param "ShowWordCount") -}}
-    {{- $scratch.Add "meta" (slice (printf "<span>共%d字</span>" .WordCount)) }}
-{{- else -}}
-    {{- $scratch.Add "meta" (slice (printf "<span>共%d字</span>" .WordCount)) }}
-{{- end }}
+{{- $scratch.Add "meta" (slice (printf "<span>共%d字</span>" .WordCount)) }}
 
 {{- with ($scratch.Get "meta") }}
     {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}

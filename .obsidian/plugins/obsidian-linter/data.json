@@ -19,10 +19,10 @@
       "force-yaml-escape-keys": ""
     },
     "format-tags-in-yaml": {
-      "enabled": false
+      "enabled": true
     },
     "format-yaml-array": {
-      "enabled": false,
+      "enabled": true,
       "alias-key": true,
       "tag-key": true,
       "default-array-style": "single-line",
@@ -32,11 +32,11 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "draft: false"
+      "text-to-insert": "draft: false\ntags: []"
     },
     "move-tags-to-yaml": {
-      "enabled": false,
-      "how-to-handle-existing-tags": "Nothing",
+      "enabled": true,
+      "how-to-handle-existing-tags": "Move",
       "tags-to-ignore": ""
     },
     "remove-yaml-keys": {
@@ -52,20 +52,20 @@
       "sort-order": "Ascending Alphabetical"
     },
     "yaml-key-sort": {
-      "enabled": false,
-      "yaml-key-priority-sort-order": "",
+      "enabled": true,
+      "yaml-key-priority-sort-order": "title\ndate\nlastmod\nslug\ntags\ndraft\nshare",
       "priority-keys-at-start-of-yaml": true,
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
       "enabled": true,
-      "date-created": false,
-      "date-created-key": "date created",
+      "date-created": true,
+      "date-created-key": "date",
       "date-created-source-of-truth": "file system",
       "date-modified": true,
-      "date-modified-key": "date ",
+      "date-modified-key": "lastmod",
       "date-modified-source-of-truth": "file system",
-      "format": "dddd, MMMM Do YYYY, h:mm:ss a",
+      "format": "YYYY-MM-DDTHH:mm:ssZ",
       "convert-to-utc": false,
       "update-on-file-contents-updated": "never"
     },

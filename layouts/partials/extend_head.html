@@ -21,19 +21,40 @@ code, pre {
 }
 </style>
 
-<!-- Umami 页面阅读量 -->
+<!-- Umami 页面阅读量（从 /pageviews.json 获取，当前访问 +1） -->
 <script>
 window.addEventListener('DOMContentLoaded', function() {
     var el = document.getElementById('page-views');
     if (!el) return;
-    fetch('/pageviews.json')
+    var path = decodeURIComponent(window.location.pathname);
+    fetch('/pageviews.json', { cache: 'no-store' })
         .then(function(r) { return r.json(); })
         .then(function(data) {
-            var path = window.location.pathname;
-            var views = data[path] || 0;
+            var views = (data[path] || 0) + 1;
             el.textContent = views;
         })
-        .catch(function() { el.textContent = '-'; });
+        .catch(function() { el.textContent = '1'; });
+});
+</script>
+
+<!-- 代码块复制按钮 -->
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('pre').forEach(function(pre) {
+        if (pre.querySelector('.copy-code')) return;
+        var btn = document.createElement('span');
+        btn.className = 'copy-code';
+        btn.textContent = '复制';
+        btn.addEventListener('click', function() {
+            var code = pre.querySelector('code');
+            if (!code) return;
+            navigator.clipboard.writeText(code.textContent).then(function() {
+                btn.textContent = '已复制';
+                setTimeout(function() { btn.textContent = '复制'; }, 2000);
+            });
+        });
+        pre.appendChild(btn);
+    });
 });
 </script>
 
