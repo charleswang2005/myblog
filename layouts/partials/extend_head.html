@@ -7,9 +7,10 @@
 <meta name="baidu-site-verification" content="codeva-l0ZOUesxYc" />
 
 <!-- Lora + 思源宋体 + Source Code Pro（Google Fonts 国内镜像） -->
+<!-- 思源宋体只保留 400/700 两个字重，避免中文全字库多重字重拖慢加载 -->
 <link rel="preconnect" href="https://fonts.googleapis.cn">
 <link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin>
-<link href="https://fonts.googleapis.cn/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;500;600;700&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.cn/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;700&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
 body {
     font-family: 'Lora', 'Noto Serif SC', serif;
@@ -64,16 +65,22 @@ window.addEventListener('DOMContentLoaded', function() {
 <!-- Umami 网站统计 -->
 <script async src="https://umami.charleswang.top/script.js" data-website-id="b735bf25-f15d-42a7-acde-8bd41337f467"></script>
 
-<!-- MathJax 公式渲染 -->
+<!-- MathJax 公式渲染：仅当页面含公式($...$ 或 $$...$$)时才加载，避免无公式页面白等 -->
 <script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  },
-  svg: { fontCache: 'global' }
-};
-</script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+(function(){
+  var html = document.documentElement.innerHTML;
+  var hasMath = html.indexOf('$$') > -1 || /\$[^$]+\$/.test(html);
+  if (!hasMath) return;
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    svg: { fontCache: 'global' }
+  };
+  var s = document.createElement('script');
+  s.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js";
+  s.async = true;
+  document.head.appendChild(s);
+})();
 </script>
