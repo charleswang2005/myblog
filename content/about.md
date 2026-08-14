@@ -1,9 +1,9 @@
 ---
 draft: false
-title: about
+title: "关于"
 layout: "about"
 summary: "关于我"
-date cre: 2026-08-14T14:28:00+08:00
+date: 2026-08-14T14:28:00+08:00
 lastmod: 2026-08-14T14:51:49+08:00
 ---
 
