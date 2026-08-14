@@ -41,6 +41,9 @@ menu:
     - name: 🔗友链
       url: /links
       weight: 4
+    - name: 👤关于
+      url: /about
+      weight: 5
 
 params:
   description: "CharlesWang 的个人博客 - 记录技术、生活与思考"
