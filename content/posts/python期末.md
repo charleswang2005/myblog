@@ -1,7 +1,7 @@
 ---
 draft: false
 title: python期末
-date : Friday, August 14th 2026, 12:53:49 pm
+date: 2026-08-14T12:53:49+08:00
 ---
 
 ### 课时一：python简介
