@@ -246,8 +246,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e283f37bfbb797c7",
+  "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "assets/css/extended/spacing.css",
     "layouts/partials/toc.html",
     "content/posts/终章.md",
     "content/posts/Python程序设计.md",
@@ -264,7 +265,6 @@
     "assets/css/extended/top.css",
     "assets/css/extended/toc.css",
     "layouts/_partials/toc.html",
-    "assets/css/extended",
     "content/posts/人生啊.md",
     "content/posts/hello-world.md",
     "content/posts/测试文章.md",
