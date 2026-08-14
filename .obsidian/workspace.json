@@ -6,7 +6,6 @@
       {
         "id": "79a5556f776a0851",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "38abad675b9e7d20",
@@ -44,29 +43,31 @@
               },
               "icon": "lucide-file",
               "title": "Python程序设计"
-            }
+            },
+            "group": "69bf263e22134c0f"
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "f14d83acc2a37d0a",
+        "id": "8270637fc77c12a5",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "04dd7507903f2b84",
+            "id": "e283f37bfbb797c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "outline",
               "state": {
                 "file": "content/posts/Python程序设计.md",
-                "mode": "source",
-                "source": false
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "lucide-file",
-              "title": "Python程序设计"
-            }
+              "icon": "lucide-list",
+              "title": "Python程序设计 的大纲"
+            },
+            "group": "69bf263e22134c0f"
           }
         ]
       }
@@ -245,7 +246,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c090d4a5d91948d3",
+  "active": "e283f37bfbb797c7",
   "lastOpenFiles": [
     "layouts/partials/toc.html",
     "content/posts/终章.md",
