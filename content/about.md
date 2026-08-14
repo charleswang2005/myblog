@@ -1,7 +1,10 @@
 ---
-title: "关于"
+draft: false
+title: about
 layout: "about"
 summary: "关于我"
+date cre: 2026-08-14T14:28:00+08:00
+lastmod: 2026-08-14T14:51:49+08:00
 ---
 
 ## 你好，我是 CharlesWang 👋
@@ -14,21 +17,3 @@ summary: "关于我"
 - 喜欢把学到的东西写下来，既能巩固记忆，也希望能帮到别人。
 - 业余时间会看点书、写点代码，偶尔也打打游戏。
 
-## 这个博客
-
-- 主要分享：**Python 学习笔记、技术教程、生活随笔**
-- 用 **Hugo + PaperMod** 搭建，托管在阿里云
-- 文章不定期更新，随缘写作 😄
-
-## 我的技术栈
-
-- 语言：Python / C++ / 一点点前端
-- 工具：Git、Hugo、Obsidian
-- 兴趣方向：Web 开发、自动化、AI 应用
-
-## 联系我
-
-- 邮箱：charleswang2005@gmail.com
-- GitHub：[@charleswang2005](https://github.com/charleswang2005)
-
-如果我的文章对你有帮助，或者有任何想交流的，欢迎在评论区留言，或者通过上面的方式联系我。感谢你的到访！
