@@ -1,0 +1,27 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{- range .Data.Pages }}
+<article class="post-entry tag-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+      {{ .Title }}
+      <span class="entry-hint">({{ len .Pages }})</span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>该系列共有 {{ len .Pages }} 篇文章</p>
+  </div>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- end }}{{/* end main */ -}}

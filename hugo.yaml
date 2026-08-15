@@ -48,11 +48,11 @@ menu:
     - name: 🔗友链
       url: /links
       weight: 4
-    - name: 👤关于
-      url: /about
-      weight: 5
     - name: 📚系列
       url: /series
+      weight: 5
+    - name: 👤关于
+      url: /about
       weight: 6
 
 params:

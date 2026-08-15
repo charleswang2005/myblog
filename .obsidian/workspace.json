@@ -200,6 +200,8 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "layouts/taxonomy/series.terms.html",
+    "layouts/taxonomy",
     "content/posts/考试.md",
     "content/posts/未命名.md",
     "content/posts/助学贷款申请过程（生源地&远程办理）.md",
@@ -225,7 +227,6 @@
     "static/BingSiteAuth.xml",
     "static/robots.txt",
     "static",
-    "layouts/partials/comments.html",
     "content/links.md",
     "0309.jpg"
   ]
