@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/不崩溃指南.md",
+                "file": "content/posts/梦想清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "不崩溃指南"
+              "title": "梦想清单"
             }
           }
         ]
@@ -200,9 +200,13 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "content/posts/不崩溃指南.md",
+    "content/posts/梦想清单.md",
+    "0309.jpg",
+    "2026-08-15.md",
+    "未命名.canvas",
     "content/posts/考试.md",
     "content/posts/简介.md",
-    "content/posts/不崩溃指南.md",
     "static/favicon-96x96.png",
     "static/favicon-48x48.png",
     "content/archive.md",
@@ -230,7 +234,6 @@
     "static/apple-touch-icon.png",
     "static/BingSiteAuth.xml",
     "static/robots.txt",
-    "content/links.md",
-    "0309.jpg"
+    "content/links.md"
   ]
 }
