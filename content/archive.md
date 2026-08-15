@@ -1,8 +1,8 @@
 ---
 draft: false
-title: archive
+title: 归档
 layout: archives
-summary: archives
+summary: 文章归档
 series:
   - 2.归档
 date: 2026-08-13T23:50:45+08:00
