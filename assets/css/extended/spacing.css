@@ -2,21 +2,21 @@
 
 /* 段落间距和行高 */
 .post-content p {
-    margin-bottom: 1.2em;
+    margin-bottom: 1em;
     line-height: 1.8;
 }
 
-/* 列表项间距：解决列表项挤在一起的问题 */
+/* 列表项间距 */
 .post-content li {
-    margin-bottom: 0.6em;
+    margin-bottom: 0.4em;
     line-height: 1.7;
 }
 
 /* 列表整体与上下文的间距 */
 .post-content ul,
 .post-content ol {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
     padding-left: 1.5em;
 }
 
@@ -27,8 +27,8 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    margin-top: 1.8em;
-    margin-bottom: 0.8em;
+    margin-top: 1.4em;
+    margin-bottom: 0.6em;
     line-height: 1.4;
 }
 
