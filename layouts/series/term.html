@@ -1,5 +1,13 @@
 {{- define "main" }}
 
+{{- /* 单篇文章的系列：直接跳转到该文章 */ -}}
+{{- if eq (len .Data.Pages) 1 }}
+  {{- $only := index .Data.Pages 0 }}
+  <meta http-equiv="refresh" content="0; url={{ $only.RelPermalink }}">
+  <script>window.location.href = "{{ $only.RelPermalink }}";</script>
+  <p>正在跳转到 <a href="{{ $only.RelPermalink }}">{{ $only.Title }}</a>…</p>
+{{- else }}
+
 <header class="page-header">
   <h1>{{ .Title }}</h1>
   {{- if .Description }}
@@ -9,34 +17,27 @@
   {{- end }}
 </header>
 
-{{- /* 按文章标题开头的数字序号升序排列（如 "1. xxx" / "2、xxx"），不写序号默认排最后 */ -}}
-{{- $pages := slice }}
-{{- range .Data.Pages }}
-  {{- $num := 999999 }}
-  {{- $matches := findRE "^\\s*(\\d+)" .Title }}
-  {{- if $matches }}{{ $num = index $matches 0 | int }}{{ end }}
-  {{- $pages = $pages | append (dict "num" $num "page" .) }}
-{{- end }}
-
-{{- range sort $pages "num" }}
+{{- /* 多篇文章：按发布时间倒序，最新在最上面 */ -}}
+{{- range .Data.Pages.ByDate.Reverse }}
 <article class="post-entry tag-entry">
   <header class="entry-header">
     <h2 class="entry-hint-parent">
-      {{- .page.Title }}
+      {{- .Title }}
     </h2>
   </header>
-  {{- if (ne (.page.Param "hideSummary") true) }}
+  {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
-    <p>{{ .page.Summary | plainify | htmlUnescape }}{{ if .page.Truncated }}...{{ end }}</p>
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
-  {{- if not (.page.Param "hideMeta") }}
+  {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
-    {{- partial "post_meta.html" .page -}}
+    {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .page.Title | plainify }}" href="{{ .page.Permalink }}"></a>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}
 
+{{- end }}{{/* end if/else */ -}}
 {{- end }}{{/* end main */ -}}
