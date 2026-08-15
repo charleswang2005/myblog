@@ -9,25 +9,33 @@
   {{- end }}
 </header>
 
-{{- /* 按 front matter 的 weight 升序排列（即你设定的序号 1、2、3…），而非按日期 */ -}}
-{{- range .Data.Pages.ByWeight }}
+{{- /* 按文章标题开头的数字序号升序排列（如 "1. xxx" / "2、xxx"），不写序号默认排最后 */ -}}
+{{- $pages := slice }}
+{{- range .Data.Pages }}
+  {{- $num := 999999 }}
+  {{- $matches := findRE "^\\s*(\\d+)" .Title }}
+  {{- if $matches }}{{ $num = index $matches 0 | int }}{{ end }}
+  {{- $pages = $pages | append (dict "num" $num "page" .) }}
+{{- end }}
+
+{{- range sort $pages "num" }}
 <article class="post-entry tag-entry">
   <header class="entry-header">
     <h2 class="entry-hint-parent">
-      {{- .Title }}
+      {{- .page.Title }}
     </h2>
   </header>
-  {{- if (ne (.Param "hideSummary") true) }}
+  {{- if (ne (.page.Param "hideSummary") true) }}
   <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    <p>{{ .page.Summary | plainify | htmlUnescape }}{{ if .page.Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
-  {{- if not (.Param "hideMeta") }}
+  {{- if not (.page.Param "hideMeta") }}
   <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
+    {{- partial "post_meta.html" .page -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  <a class="entry-link" aria-label="post link to {{ .page.Title | plainify }}" href="{{ .page.Permalink }}"></a>
 </article>
 {{- end }}
 

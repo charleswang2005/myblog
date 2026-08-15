@@ -74,6 +74,8 @@ params:
     imageHeight: 180
     imageTitle: "avatar"
     buttons:
+      - name: 开始
+        url: /series
       - name: 归档
         url: /archive
       - name: 标签

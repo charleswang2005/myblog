@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/未命名.md",
+                "file": "content/posts/简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "简介"
             }
           }
         ]
@@ -200,11 +200,12 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
+    "content/posts/考试.md",
+    "content/posts/简介.md",
+    "content/posts/助学贷款申请过程（生源地&远程办理）.md",
+    "content/posts/Python程序设计.md",
     "layouts/taxonomy/series.terms.html",
     "layouts/taxonomy",
-    "content/posts/考试.md",
-    "content/posts/未命名.md",
-    "content/posts/助学贷款申请过程（生源地&远程办理）.md",
     "layouts/partials/social_icons.html",
     "layouts/_partials/social_icons.html",
     "layouts/archives.html",
@@ -217,7 +218,6 @@
     "content/posts/大开大合.md",
     "content/posts/测试文章.md",
     "content/about.md",
-    "content/posts/Python程序设计.md",
     "assets/css/extended/spacing.css",
     "layouts/partials/toc.html",
     "static/favicon.ico",
@@ -226,7 +226,6 @@
     "static/apple-touch-icon.png",
     "static/BingSiteAuth.xml",
     "static/robots.txt",
-    "static",
     "content/links.md",
     "0309.jpg"
   ]
