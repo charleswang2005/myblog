@@ -4,6 +4,12 @@ title: CharlesWang个人博客
 hasCJKLanguage: true
 theme: ["PaperMod"]
 
+# 自定义分类：系列（把文章归入「考试」「日记」等系列，系列内按 weight 序号排序）
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+
 frontmatter:
   lastmod:
     - :git
@@ -45,6 +51,9 @@ menu:
     - name: 👤关于
       url: /about
       weight: 5
+    - name: 📚系列
+      url: /series
+      weight: 6
 
 params:
   description: "CharlesWang 的个人博客 - 记录技术、生活与思考"

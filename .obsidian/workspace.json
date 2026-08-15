@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/考试.md",
+                "file": "content/posts/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "考试"
+              "title": "未命名"
             }
           }
         ]
@@ -200,8 +200,9 @@
   },
   "active": "c090d4a5d91948d3",
   "lastOpenFiles": [
-    "content/posts/助学贷款申请过程（生源地&远程办理）.md",
     "content/posts/考试.md",
+    "content/posts/未命名.md",
+    "content/posts/助学贷款申请过程（生源地&远程办理）.md",
     "layouts/partials/social_icons.html",
     "layouts/_partials/social_icons.html",
     "layouts/archives.html",

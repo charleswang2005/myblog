@@ -4,7 +4,8 @@ title: Python程序设计
 date: 2026-08-14T12:51:19+08:00
 lastmod: 2026-08-14T15:13:59+08:00
 tags: [期末]
-date cre: 2026-08-14T12:51:19+08:00
+series: ["学习笔记"]
+weight: 1
 ---
 
 ### 章节一：python简介

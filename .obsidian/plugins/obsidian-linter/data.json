@@ -32,7 +32,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "draft: false"
+      "text-to-insert": "draft: false\nseries:未分类\nweigh：0"
     },
     "move-tags-to-yaml": {
       "enabled": true,
@@ -60,7 +60,7 @@
     "yaml-timestamp": {
       "enabled": true,
       "date-created": true,
-      "date-created-key": "date cre",
+      "date-created-key": "date",
       "date-created-source-of-truth": "file system",
       "date-modified": true,
       "date-modified-key": "lastmod",
