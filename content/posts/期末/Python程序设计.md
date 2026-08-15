@@ -2,9 +2,11 @@
 draft: false
 title: Python程序设计
 date: 2026-08-14T12:51:19+08:00
-lastmod: 2026-08-15T16:17:00+08:00
-tags: [期末]
-series: ["学习笔记"]
+lastmod: 2026-08-16T01:00:05+08:00
+tags:
+  - 期末
+series:
+  - 5.期末
 weight: 1
 ---
 
