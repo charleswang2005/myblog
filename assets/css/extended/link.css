@@ -1,0 +1,10 @@
+/* 正文与外部链接显式用蓝色，提升可识别性 */
+.post-content a {
+    color: #3273dc;
+}
+.post-content a:visited {
+    color: #8e6ec5;
+}
+.post-content a:hover {
+    text-decoration: underline;
+}
