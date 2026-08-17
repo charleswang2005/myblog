@@ -11,17 +11,28 @@
             "id": "c090d4a5d91948d3",
             "type": "leaf",
             "state": {
+              "type": "pkmer-downloader",
+              "state": {},
+              "icon": "bookmark",
+              "title": "Pkmer Market"
+            }
+          },
+          {
+            "id": "7ea4032266e29289",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/梦想清单.md",
+                "file": "content/posts/期末/Python程序设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "梦想清单"
+              "title": "Python程序设计"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,16 +206,46 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "pkmer:Open Pkmer Market": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "nutstore-sync:开始同步": false,
+      "nutstore-sync:停止同步": false,
+      "nutstore-sync:打开 Chatbox": false
     }
   },
-  "active": "c090d4a5d91948d3",
+  "active": "7ea4032266e29289",
   "lastOpenFiles": [
+    "myblog/content/posts/期末/Python程序设计.md",
+    "myblog/assets/css/extended/top.css",
+    "myblog/assets/css/extended/toc.css",
+    "myblog/assets/css/extended/spacing.css",
+    "myblog/assets/css/extended/code.css",
+    "myblog/layouts/taxonomy/series.terms.html",
+    "myblog/layouts/series/term.html",
+    "myblog/layouts/partials/toc.html",
+    "myblog/layouts/partials/social_icons.html",
+    "myblog/layouts/partials/post_meta.html",
+    "myblog/layouts/partials/extend_head.html",
+    "myblog/content/posts/考试.md",
+    "myblog/content/posts/简介.md",
+    "myblog/content/posts/梦想清单.md",
+    "myblog/content/posts/徐州-上海 冬.md",
+    "myblog/content/posts/助学贷款申请过程（生源地&远程办理）.md",
+    "myblog/content/posts/不崩溃指南.md",
+    "myblog/static/favicon-96x96.png",
+    "myblog/static/favicon-48x48.png",
+    "myblog/static/favicon-32x32.png",
+    "myblog/static/favicon-16x16.png",
+    "myblog/static/apple-touch-icon.png",
+    "myblog/content/search.md",
+    "myblog/content/links.md",
+    "myblog/content/archive.md",
+    "myblog/content/about.md",
+    "myblog/archetypes/default.md",
+    "myblog/0309.jpg",
+    "content/posts/梦想清单.md",
     "content/posts/不崩溃指南.md",
     "content/posts/徐州-上海 冬.md",
-    "content/posts/梦想清单.md",
     "content/posts/期末/Python程序设计.md",
-    "content/posts/期末",
     "0309.jpg",
     "2026-08-15.md",
     "未命名.canvas",
@@ -215,26 +256,10 @@
     "content/archive.md",
     "content/posts/助学贷款申请过程（生源地&远程办理）.md",
     "content/about.md",
-    "layouts/taxonomy/series.terms.html",
-    "layouts/taxonomy",
-    "layouts/partials/social_icons.html",
-    "layouts/_partials/social_icons.html",
-    "layouts/archives.html",
     "content/posts/hello-world.md",
     "content/posts/终章.md",
     "content/posts/人生啊.md",
     "content/posts/你好中国.md",
-    "content/posts/计算机网络安全期末复习.md",
-    "content/posts/第一条博客.md",
-    "content/posts/大开大合.md",
-    "content/posts/测试文章.md",
-    "assets/css/extended/spacing.css",
-    "layouts/partials/toc.html",
-    "static/favicon.ico",
-    "static/favicon-32x32.png",
-    "static/favicon-16x16.png",
-    "static/apple-touch-icon.png",
-    "static/BingSiteAuth.xml",
-    "content/links.md"
+    "static/favicon-32x32.png"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "session": {
+    "schemaVersion": 2,
+    "id": "session_len-lain-saved",
+    "createdAt": 1786968677274,
+    "updatedAt": 1786968677274,
+    "subagents": {
+      "master": {
+        "id": "master",
+        "type": "master",
+        "status": "idle",
+        "createdAt": 1786968677274,
+        "timeline": [],
+        "pendingInputs": [],
+        "operations": {},
+        "toolTimings": {},
+        "subagents": {}
+      }
+    }
+  }
+}
