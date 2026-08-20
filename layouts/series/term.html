@@ -17,25 +17,43 @@
   {{- end }}
 </header>
 
-{{- /* 多篇文章：按发布时间倒序，最新在最上面 */ -}}
-{{- range .Data.Pages.ByDate.Reverse }}
+{{- /* 中文数字 1-19 映射（长的放前面，避免 alternation 优先匹配短串） */ -}}
+{{- $cn := dict "十九" 19 "十八" 18 "十七" 17 "十六" 16 "十五" 15 "十四" 14 "十三" 13 "十二" 12 "十一" 11 "十" 10 "九" 9 "八" 8 "七" 7 "六" 6 "五" 5 "四" 4 "三" 3 "二" 2 "一" 1 }}
+
+{{- $sorted := slice }}
+{{- range .Data.Pages }}
+  {{- $num := 9999 }}
+  {{- /* 优先匹配阿拉伯数字 */ -}}
+  {{- with findRE "^[0-9]+" .Title }}
+    {{- $num = int (index . 0) }}
+  {{- else }}
+    {{- /* 再匹配中文数字 1-19 */ -}}
+    {{- with findRE "^(十九|十八|十七|十六|十五|十四|十三|十二|十一|十|九|八|七|六|五|四|三|二|一)" .Title }}
+      {{- $num = index $cn (index . 0) }}
+    {{- end }}
+  {{- end }}
+  {{- $sorted = $sorted | append (dict "num" $num "page" .) }}
+{{- end }}
+
+{{- range sort $sorted "num" }}
+{{- $p := .page }}
 <article class="post-entry tag-entry">
   <header class="entry-header">
     <h2 class="entry-hint-parent">
-      {{- .Title }}
+      {{- $p.Title }}
     </h2>
   </header>
-  {{- if (ne (.Param "hideSummary") true) }}
+  {{- if (ne ($p.Param "hideSummary") true) }}
   <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    <p>{{ $p.Summary | plainify | htmlUnescape }}{{ if $p.Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
-  {{- if not (.Param "hideMeta") }}
+  {{- if not ($p.Param "hideMeta") }}
   <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
+    {{- partial "post_meta.html" $p -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  <a class="entry-link" aria-label="post link to {{ $p.Title | plainify }}" href="{{ $p.Permalink }}"></a>
 </article>
 {{- end }}
 
