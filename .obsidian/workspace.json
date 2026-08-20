@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/5.人生规划Life Planning/健康.md",
+                "file": "content/posts/5.人生规划Life Planning/三、工作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "健康"
+              "title": "三、工作"
             }
           }
         ],
@@ -211,14 +211,21 @@
   },
   "active": "7ea4032266e29289",
   "lastOpenFiles": [
-    "content/posts/5.人生规划Life Planning/人生规划.md",
-    "content/posts/5.人生规划Life Planning/健康.md",
+    "content/posts/不崩溃指南.md",
+    "content/posts/考试.md",
+    "content/posts/5.人生规划Life Planning/三、工作.md",
+    "content/posts/5.人生规划Life Planning/二、健康.md",
+    "content/posts/期末/Python程序设计.md",
+    "content/posts/5.人生规划Life Planning/一、人生规划.md",
+    "content/archive.md",
+    "content/about.md",
     "content/posts/助学贷款申请过程（生源地&远程办理）.md",
+    "content/posts/音乐推荐.md",
+    "content/posts/徐州-上海 冬.md",
+    "content/posts/梦想清单.md",
+    "content/posts/简介.md",
     "assets/css/extended/link.css",
     "content/posts/5.人生规划Life Planning",
-    "content/posts/音乐推荐.md",
-    "content/posts/简介.md",
-    "content/posts/不崩溃指南.md",
     "未命名/myblog/myblog/assets/css/extended/code.css",
     "未命名/myblog/myblog/assets/css/extended/toc.css",
     "未命名/myblog/myblog/assets/css/extended/top.css",
@@ -245,14 +252,7 @@
     "未命名/myblog/myblog/static/favicon-48x48.png",
     "未命名/myblog/myblog/static/favicon-16x16.png",
     "未命名/myblog/myblog/0309.jpg",
-    "content/posts/期末/Python程序设计.md",
     "myblog/content/posts/期末/Python程序设计.md",
-    "myblog/content/posts/考试.md",
-    "myblog/content/posts/简介.md",
-    "myblog/content/posts/梦想清单.md",
-    "myblog/content/posts/徐州-上海 冬.md",
-    "myblog/content/posts/助学贷款申请过程（生源地&远程办理）.md",
-    "myblog/content/posts/不崩溃指南.md",
     "myblog/static/favicon-96x96.png",
     "myblog/static/favicon-48x48.png",
     "myblog/static/favicon-32x32.png",
