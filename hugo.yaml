@@ -21,6 +21,8 @@ enableGitInfo: true
 
 markup:
   goldmark:
+    renderer:
+      hardWraps: true
     extensions:
       passthrough:
         enable: true
