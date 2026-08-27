@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c090d4a5d91948d3",
-            "type": "leaf",
-            "state": {
-              "type": "pkmer-downloader",
-              "state": {},
-              "icon": "bookmark",
-              "title": "Pkmer Market"
-            }
-          },
-          {
             "id": "7ea4032266e29289",
             "type": "leaf",
             "state": {
@@ -60,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,8 +229,9 @@
   },
   "active": "f7de8bd43ce0cfcc",
   "lastOpenFiles": [
-    "content/posts/考试/考试.md",
+    "content/posts/音乐推荐.md",
     "content/posts/考试/计算机二级WPS.md",
+    "content/posts/考试/考试.md",
     "content/posts/考试",
     "content/posts/6.年度计划/2026.md",
     "().md",
@@ -253,7 +244,6 @@
     "content/archive.md",
     "content/about.md",
     "content/posts/助学贷款申请过程（生源地&远程办理）.md",
-    "content/posts/音乐推荐.md",
     "content/posts/徐州-上海 冬.md",
     "content/posts/梦想清单.md",
     "content/posts/简介.md",
