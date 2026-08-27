@@ -39,18 +39,13 @@
             "id": "f7de8bd43ce0cfcc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/考试/计算机二级WPS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "计算机二级WPS"
+              "type": "pkmer-downloader",
+              "state": {},
+              "icon": "bookmark",
+              "title": "Pkmer Market"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,8 +222,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7de8bd43ce0cfcc",
+  "active": "7ea4032266e29289",
   "lastOpenFiles": [
+    "content/posts/5.人生规划Life Planning/二、健康.md",
     "content/posts/音乐推荐.md",
     "content/posts/考试/计算机二级WPS.md",
     "content/posts/考试/考试.md",
@@ -237,7 +233,6 @@
     "().md",
     "content/posts/5.人生规划Life Planning/一、人生规划.md",
     "content/posts/5.人生规划Life Planning/三、工作.md",
-    "content/posts/5.人生规划Life Planning/二、健康.md",
     "content/posts/6.年度计划",
     "content/posts/不崩溃指南.md",
     "content/posts/期末/Python程序设计.md",
