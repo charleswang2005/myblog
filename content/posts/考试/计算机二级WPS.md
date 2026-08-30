@@ -2,7 +2,7 @@
 draft: false
 series: 考试
 date: 2026-08-27T11:31:03+08:00
-lastmod: 2026-08-27T11:44:20+08:00
+lastmod: 2026-08-27T13:43:44+08:00
 title: 计算机二级WPS
 ---
 # 计划
@@ -21,3 +21,6 @@ title: 计算机二级WPS
     1. 掌握 9 大必考函数：SUM、AVERAGE、IF、SUMIF/SUMIFS、COUNTIF/COUNTIFS、VLOOKUP、RANK
     2. 每个函数配 2 道真题练习，重点练**绝对引用 $**和英文半角符号
     3. 碎片时间刷 20 道选择题，混眼熟即可
+```
+=VLOOKUP(查找值, 查找区域, 返回列数, 匹配类型)
+```
