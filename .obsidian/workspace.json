@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/未分类/补剂.md",
+                "file": "content/posts/考试/考试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "补剂"
+              "title": "考试"
             }
           },
           {
@@ -224,6 +224,7 @@
   },
   "active": "7ea4032266e29289",
   "lastOpenFiles": [
+    "content/posts/未分类/补剂.md",
     "content/图木舒克马拉松赛记.md",
     "content/posts/未分类/图木舒克.md",
     "content/posts/期末/Web应用安全.md",
@@ -232,7 +233,6 @@
     "content/posts/未分类/徐州-上海 冬.md",
     "content/图木舒克马拉松备赛.md",
     "content/posts/考试/六级.md",
-    "content/posts/未分类/补剂.md",
     "content/posts/期末/应用密码学.md",
     "content/posts/6.年度计划/2026.md",
     "content/posts/期末/Python程序设计.md",
