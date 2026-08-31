@@ -45,7 +45,8 @@
               "title": "Pkmer Market"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,14 +223,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7ea4032266e29289",
+  "active": "d28378f9597defca",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
     "content/posts/跑步故事",
     "content/posts/考试/六级.md",
     "content/posts/未分类/图木舒克 秋冬.md",
     "content/posts/考试/考试.md",
     "content/posts/未分类/补剂.md",
-    "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
     "content/posts/期末/Web应用安全.md",
     "content/posts/未分类/sum.md",
     "content/posts/期末/操作系统.md",
@@ -259,7 +261,6 @@
     "未命名/myblog/myblog/assets/css/extended/toc.css",
     "未命名/myblog/myblog/assets/css/extended/top.css",
     "未命名/myblog/myblog/assets/css/extended/spacing.css",
-    "未命名/myblog/myblog/layouts/_partials/footer.html",
     "未命名/myblog/myblog/static/apple-touch-icon.png",
     "未命名/myblog/myblog/static/favicon-32x32.png",
     "未命名/myblog/myblog/static/favicon-96x96.png",
