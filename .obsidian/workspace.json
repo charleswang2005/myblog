@@ -11,32 +11,25 @@
             "id": "7ea4032266e29289",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapview",
               "state": {
-                "file": "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
-                "mode": "source",
-                "source": false
+                "file": "content/posts/考试/大学生数学竞赛.md"
               },
-              "icon": "lucide-file",
-              "title": "2026图木舒克马拉松赛记"
+              "icon": "blocks",
+              "title": "大学生数学竞赛"
             }
           },
           {
             "id": "d28378f9597defca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026图木舒克马拉松赛记"
+              "type": "pkmer-downloader",
+              "state": {},
+              "icon": "bookmark",
+              "title": "Pkmer Market"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,14 +206,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d28378f9597defca",
+  "active": "7ea4032266e29289",
   "lastOpenFiles": [
+    "content/posts/考试/计算机二级WPS.md",
+    "content/posts/考试/大学生数学竞赛.md",
+    "content/posts/考试/111.md",
+    "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
+    "content/图木舒克马拉松赛记.md",
+    "content/posts/未分类/助学贷款申请过程（生源地&远程办理）.md",
+    "content/posts/期末/Linux 系统及应用.md",
     "content/posts/期末/路由交换技术.md",
     "content/posts/考试/软考中级（软件设计师）.md",
-    "content/posts/考试/大学生数学竞赛.md",
-    "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
     "7c2f5f941d186a2d641200aa17da4e3d.jpg",
-    "content/图木舒克马拉松赛记.md",
     "content/posts/跑步故事/2026图木舒克马拉松赛记.md.bak.1788220409",
     "content/posts/5.人生规划Life Planning/二、健康.md",
     "conflict-files-obsidian-git.md",
@@ -237,14 +234,10 @@
     "content/posts/期末/应用密码学.md",
     "content/posts/6.年度计划/2026.md",
     "content/posts/期末/Python程序设计.md",
-    "content/posts/考试/计算机二级WPS.md",
     "content/links.md",
     "content/posts/未分类/鼻炎.md",
     "content/posts/未分类",
     "content/posts/5.人生规划Life Planning/同步测试.md",
-    "content/posts/5.人生规划Life Planning/三、工作.md",
-    "content/posts/5.人生规划Life Planning/一、人生规划.md",
-    "archetypes/default.md",
     "content/posts/考试",
     "content/posts/6.年度计划",
     "assets/css/extended/link.css",
