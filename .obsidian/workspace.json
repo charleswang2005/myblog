@@ -11,13 +11,38 @@
             "id": "b7f59ff4ce12e8a4",
             "type": "leaf",
             "state": {
-              "type": "mindmapview",
+              "type": "markdown",
               "state": {
-                "file": "content/posts/考试/大学生数学竞赛.md"
+                "file": "content/posts/期末/应用密码学.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "大学生数学竞赛"
-            }
+              "icon": "lucide-file",
+              "title": "应用密码学"
+            },
+            "group": "57daf8e179c994cc"
+          }
+        ]
+      },
+      {
+        "id": "92ff38ef75f675b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88562687fe626bbc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/期末/应用密码学.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "应用密码学 的大纲"
+            },
+            "group": "57daf8e179c994cc"
           }
         ]
       }
@@ -196,15 +221,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7f59ff4ce12e8a4",
+  "active": "88562687fe626bbc",
   "lastOpenFiles": [
-    "content/posts/考试/111-mindmap.md",
-    "content/posts/考试/111.md",
-    "content/posts/考试/大学生数学竞赛.md",
-    "content/posts/考试/计算机二级WPS.md",
-    "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
     "content/图木舒克马拉松赛记.md",
     "content/posts/未分类/助学贷款申请过程（生源地&远程办理）.md",
+    "content/posts/期末/应用密码学.md",
+    "content/posts/考试/软设-专业英语.md",
+    "content/posts/5.人生规划Life Planning/颞下颌关节紊乱（TMD）-mindmap.md",
+    "content/posts/5.人生规划Life Planning/颞下颌关节紊乱（TMD）.md",
+    "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
+    "content/posts/考试/大学生数学竞赛 mind.md",
+    "content/posts/考试/大学生数学竞赛.md",
+    "content/posts/考试/111-mindmap.md",
+    "content/posts/考试/计算机二级WPS.md",
     "content/posts/期末/Linux 系统及应用.md",
     "content/posts/期末/路由交换技术.md",
     "content/posts/考试/软考中级（软件设计师）.md",
@@ -222,11 +251,7 @@
     "content/posts/期末/操作系统.md",
     "content/posts/未分类/徐州-上海 冬.md",
     "content/图木舒克马拉松备赛.md",
-    "content/posts/期末/应用密码学.md",
     "content/posts/6.年度计划/2026.md",
-    "content/posts/期末/Python程序设计.md",
-    "content/links.md",
-    "content/posts/未分类/鼻炎.md",
     "content/posts/未分类",
     "content/posts/考试",
     "content/posts/6.年度计划",
