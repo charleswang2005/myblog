@@ -6,27 +6,40 @@
       {
         "id": "f396611b472c3675",
         "type": "tabs",
+        "dimension": 82.81786941580756,
         "children": [
           {
             "id": "b7f59ff4ce12e8a4",
             "type": "leaf",
             "state": {
+              "type": "pkmer-downloader",
+              "state": {},
+              "icon": "bookmark",
+              "title": "Pkmer Market"
+            },
+            "group": "57daf8e179c994cc"
+          },
+          {
+            "id": "2aee4eb02ff70287",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/期末/应用密码学.md",
+                "file": "content/posts/college/关于专业排名与综测.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "应用密码学"
-            },
-            "group": "57daf8e179c994cc"
+              "title": "关于专业排名与综测"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "92ff38ef75f675b6",
         "type": "tabs",
+        "dimension": 17.18213058419244,
         "children": [
           {
             "id": "88562687fe626bbc",
@@ -205,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,11 +233,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88562687fe626bbc",
+  "active": "2aee4eb02ff70287",
   "lastOpenFiles": [
+    "content/posts/期末/应用密码学.md",
+    "content/posts/college/关于专业排名与综测.md",
+    "content/posts/college/专业排名与综测.md",
+    "content/posts/college",
     "content/图木舒克马拉松赛记.md",
     "content/posts/未分类/助学贷款申请过程（生源地&远程办理）.md",
-    "content/posts/期末/应用密码学.md",
     "content/posts/考试/软设-专业英语.md",
     "content/posts/5.人生规划Life Planning/颞下颌关节紊乱（TMD）-mindmap.md",
     "content/posts/5.人生规划Life Planning/颞下颌关节紊乱（TMD）.md",
@@ -250,8 +265,6 @@
     "content/posts/未分类/sum.md",
     "content/posts/期末/操作系统.md",
     "content/posts/未分类/徐州-上海 冬.md",
-    "content/图木舒克马拉松备赛.md",
-    "content/posts/6.年度计划/2026.md",
     "content/posts/未分类",
     "content/posts/考试",
     "content/posts/6.年度计划",
@@ -259,7 +272,6 @@
     "content/posts/5.人生规划Life Planning",
     "未命名/myblog/myblog/assets/css/extended/code.css",
     "未命名/myblog/myblog/assets/css/extended/toc.css",
-    "未命名/myblog/myblog/assets/css/extended/top.css",
     "未命名/myblog/myblog/static/apple-touch-icon.png",
     "未命名/myblog/myblog/static/favicon-32x32.png",
     "未命名/myblog/myblog/static/favicon-96x96.png",
