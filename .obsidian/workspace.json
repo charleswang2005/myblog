@@ -19,7 +19,30 @@
               },
               "icon": "lucide-file",
               "title": "应用密码学"
-            }
+            },
+            "group": "1536f3e8b5036a94"
+          }
+        ]
+      },
+      {
+        "id": "dc76014f367daf54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "248be875875bf921",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/期末/应用密码学.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "应用密码学 的大纲"
+            },
+            "group": "1536f3e8b5036a94"
           }
         ]
       }
@@ -202,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 511.1666259765625
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,7 +241,7 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "30353f318942a075",
+  "active": "248be875875bf921",
   "lastOpenFiles": [
     "content/posts/期末/路由交换技术.md",
     "content/posts/未分类/补剂.md",
