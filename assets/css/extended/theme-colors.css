@@ -1,0 +1,106 @@
+/* 配色方案：参照 yihong0618.me（Astro + shadcn 风格）
+   浅色：微暖白背景 #fdfdfd + 橙色强调 #ff6b01
+   深色：深蓝灰背景 #212737 + 蓝色强调 #006cac
+   正文/标题保持深色，只有链接与交互元素用强调色
+*/
+
+:root {
+    /* 背景与卡片 */
+    --theme: rgb(253, 253, 253);      /* #fdfdfd 微暖白，比纯白柔和 */
+    --entry: rgb(255, 255, 255);      /* 卡片纯白，与背景形成微弱层次 */
+    --border: rgb(240, 240, 240);
+
+    /* 强调色 */
+    --accent: rgb(255, 107, 1);       /* #ff6b01 */
+    --accent-soft: rgba(255, 107, 1, 0.10);
+}
+
+:root[data-theme="dark"] {
+    --theme: rgb(33, 39, 55);         /* #212737 深蓝灰 */
+    --entry: rgb(42, 49, 67);
+    --border: rgb(52, 59, 78);
+
+    --accent: rgb(0, 108, 172);       /* #006cac */
+    --accent-soft: rgba(0, 108, 172, 0.18);
+}
+
+/* ---- 链接 ---- */
+.post-content a,
+.post-content a:visited {
+    color: var(--accent);
+}
+.post-content a:hover {
+    text-decoration: underline;
+}
+
+/* 导航、页脚、标题锚点等交互元素 */
+#menu a:hover,
+.footer a:hover,
+.post-title a:hover,
+.entry-hint-parent a:hover {
+    color: var(--accent);
+}
+
+/* 标题锚点 # 符号 */
+.anchor:hover {
+    color: var(--accent);
+}
+
+/* 选中文字 */
+::selection {
+    background: var(--accent-soft);
+    color: var(--content);
+}
+
+/* ---- 标签 / 分类 chip ---- */
+.post-tags a,
+.terms-tags a,
+.post-entry .entry-footer .post-tags a {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 2px 8px;
+    transition: all 0.2s;
+}
+.post-tags a:hover,
+.terms-tags a:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+/* ---- 按钮（Profile 模式 / 归档等） ---- */
+.button,
+.profile .buttons a,
+a.btn {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    border-radius: var(--radius);
+    transition: all 0.2s;
+}
+.button:hover,
+.profile .buttons a:hover,
+a.btn:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+/* ---- 侧边目录高亮 ---- */
+#TableOfContents a.active,
+#TableOfContents li.active > a {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+/* ---- 引用块左边框 ---- */
+.post-content blockquote {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 0.6em 1em;
+    border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* ---- 表格表头 ---- */
+.post-content thead th {
+    border-bottom: 2px solid var(--accent-soft);
+}
