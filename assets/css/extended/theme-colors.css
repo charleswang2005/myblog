@@ -1,5 +1,5 @@
 /* 配色方案：参照 yihong0618.me（Astro + shadcn 风格）
-   浅色：微暖白背景 #fdfdfd + 橙色强调 #ff6b01
+   浅色：微暖白背景 #fdfdfd + 蓝色强调 #3273dc
    深色：深蓝灰背景 #212737 + 蓝色强调 #006cac
    正文/标题保持深色，只有链接与交互元素用强调色
 */
@@ -11,8 +11,8 @@
     --border: rgb(240, 240, 240);
 
     /* 强调色 */
-    --accent: rgb(255, 107, 1);       /* #ff6b01 */
-    --accent-soft: rgba(255, 107, 1, 0.10);
+    --accent: rgb(50, 115, 220);      /* #3273dc 蓝 */
+    --accent-soft: rgba(50, 115, 220, 0.10);
 }
 
 :root[data-theme="dark"] {
