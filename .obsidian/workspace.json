@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f396611b472c3675",
+        "id": "6a6ecc03e428d52d",
         "type": "tabs",
-        "dimension": 82.18475073313783,
         "children": [
           {
-            "id": "30353f318942a075",
+            "id": "c2f6b91429aa8658",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +19,7 @@
               },
               "icon": "lucide-file",
               "title": "路由交换技术"
-            },
-            "group": "730a464229120c64"
-          }
-        ]
-      },
-      {
-        "id": "6a6ecc03e428d52d",
-        "type": "tabs",
-        "dimension": 17.81524926686217,
-        "children": [
-          {
-            "id": "0319522e3ed9651d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "content/posts/期末/路由交换技术.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "路由交换技术 的大纲"
-            },
-            "group": "730a464229120c64"
+            }
           }
         ]
       }
@@ -108,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.16668701171875
   },
   "right": {
     "id": "1cffa277ebbe71e6",
@@ -244,10 +219,16 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "30353f318942a075",
+  "active": "c2f6b91429aa8658",
   "lastOpenFiles": [
-    "content/posts/期末/应用密码学.md",
+    "content/posts/游戏/待办.md",
     "content/posts/期末/路由交换技术.md",
+    "content/posts/游戏",
+    "content/posts/期末/应用密码学.md",
+    "content/posts/1、简介/简介.md",
+    "static/favicon-32x32.png",
+    "static/favicon-16x16.png",
+    "static/apple-touch-icon.png",
     "content/posts/未分类/助学贷款申请过程（生源地&远程办理）.md",
     "content/posts/college/关于专业排名与综测.md",
     "content/posts/跑步故事/2026图木舒克马拉松赛记.md",
@@ -271,13 +252,8 @@
     "content/计算机网络安全期末复习.md",
     "content/2026-06-09-2026年下半年六级规划.md",
     "content/2026-06-08-小红的字符串计数.md",
-    "content/2026-06-08-小红打舞萌.md",
-    "content/2026-06-08-魔物76.md",
     "static/favicon-96x96.png",
     "static/favicon-48x48.png",
-    "static/favicon-32x32.png",
-    "static/apple-touch-icon.png",
-    "static/favicon-16x16.png",
     "7c2f5f941d186a2d641200aa17da4e3d.jpg",
     "屏幕截图 2026-09-18 134515.png",
     "屏幕截图 2026-09-18 134602.png",
@@ -291,7 +267,6 @@
     "copilot/skills/json-canvas/LICENSE",
     "copilot/skills/json-canvas/references",
     "copilot/skills/json-canvas",
-    "copilot/skills/obsidian-bases/LICENSE",
     "未命名.canvas"
   ]
 }
