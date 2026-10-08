@@ -58,17 +58,3 @@
 .post-content li p {
     margin-bottom: 0.4em;
 }
-
-/* ---- 标题字号：中文下 PaperMod 默认太大，全部缩小 ---- */
-/* 文章大标题 */
-.post-title {
-    font-size: 1.75em;
-}
-
-/* 正文各级标题 */
-.post-content h1 { font-size: 1.5em; }
-.post-content h2 { font-size: 1.3em; }
-.post-content h3 { font-size: 1.15em; }
-.post-content h4 { font-size: 1.05em; }
-.post-content h5,
-.post-content h6 { font-size: 1em; }
