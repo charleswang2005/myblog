@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/考研/考研日记.md",
+                "file": "content/posts/考试/六级.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "考研日记"
+              "title": "六级"
             }
           }
         ]
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.1666259765625
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,9 +221,9 @@
   },
   "active": "c2f6b91429aa8658",
   "lastOpenFiles": [
+    "content/posts/考研/考研日记.md",
     "content/posts/考研/烤盐进程.md",
     "content/posts/考研/意向院校（base on 面试比）.md",
-    "content/posts/考研/考研日记.md",
     "content/posts/考试/六级.md",
     "content/posts/考试/考试.md",
     "content/posts/6.年度计划/2026.md",
