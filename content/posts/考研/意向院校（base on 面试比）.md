@@ -2,7 +2,7 @@
 draft: false
 series: 考研
 date: 2026-10-10T10:30:09+08:00
-lastmod: 2026-10-10T15:55:14+08:00
+lastmod: 2026-10-10T15:55:49+08:00
 title: 意向院校（base on 面试比）
 ---
 
