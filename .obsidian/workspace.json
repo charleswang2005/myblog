@@ -13,36 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/期末/计算机网络安全.md",
+                "file": "content/posts/未分类/补剂.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "计算机网络安全"
-            },
-            "group": "ad6d28cbcaa4db23"
-          }
-        ]
-      },
-      {
-        "id": "06ab8b636ab10e0a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "62ef2b27d627ba06",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "content/posts/期末/计算机网络安全.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "计算机网络安全 的大纲"
-            },
-            "group": "ad6d28cbcaa4db23"
+              "title": "补剂"
+            }
           }
         ]
       }
@@ -225,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 763.1666259765625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,11 +218,12 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "c2f6b91429aa8658",
+  "active": "b6246ac6cb7384bc",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/调整葡萄糖酸锌用法用量@20261017_091954.md",
+    "content/posts/期末/计算机网络安全.md",
     "content/posts/期末/路由交换技术.md",
     "content/posts/期末/计算机组成原理.md",
-    "content/posts/期末/计算机网络安全.md",
     "content/posts/期末/操作系统.md",
     "本地/穿搭.md",
     "本地/P1、参与困难家庭评议小组后的低沉消退.md",
@@ -269,7 +247,6 @@
     "content/posts/未分类/助学贷款申请过程（生源地&远程办理）.md",
     "content/posts/未分类/音乐推荐.md",
     "content/posts/5.人生规划Life Planning/一、人生规划.md",
-    "content/posts/5.人生规划Life Planning/三、工作.md",
     "assets/css/extended/theme-colors.css",
     "content/posts/游戏",
     "static/favicon-32x32.png",
