@@ -19,30 +19,7 @@
               },
               "icon": "lucide-file",
               "title": "软考中级（软件设计师）"
-            },
-            "group": "23fbc821e11225a8"
-          }
-        ]
-      },
-      {
-        "id": "672375b98649a018",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7e6d385d55ac7d90",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "content/posts/考试/软考中级（软件设计师）.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "软考中级（软件设计师） 的大纲"
-            },
-            "group": "23fbc821e11225a8"
+            }
           }
         ]
       }
