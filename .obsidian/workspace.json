@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/1、简介/简介.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "简介"
+              "title": "about"
             }
           }
         ]
@@ -220,9 +220,9 @@
   },
   "active": "c2f6b91429aa8658",
   "lastOpenFiles": [
+    "content/posts/1、简介/简介.md",
     "content/posts/1、简介/人生格言.md",
     "content/posts/1、简介/竞赛&考证.md",
-    "content/posts/1、简介/简介.md",
     "content/posts/未分类/补剂.md",
     "content/posts/college/与自己和解.md",
     "copilot/copilot-conversations/调整葡萄糖酸锌用法用量@20261017_091954.md",
