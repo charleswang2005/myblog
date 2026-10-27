@@ -4,6 +4,7 @@
 
   <div class="base-map-wrap">
     <div id="base-map"></div>
+    <div class="base-map-blocker"></div>
     <span class="base-pin"></span>
     <div class="base-city-card">
       <span class="base-city-dot"></span>
@@ -37,6 +38,8 @@
   width: 100%; height: 100%;
   filter: grayscale(100%) brightness(1.07) contrast(.9);
 }
+.base-map-blocker { position:absolute; inset:0; z-index:5; }
+.base-pin, .base-city-card { z-index:10; }
 .base-pin {
   position: absolute; left: 50%; top: 50%;
   transform: translate(-50%, -50%);
