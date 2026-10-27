@@ -1,6 +1,8 @@
 {{/* 所在地模块：腾讯地图 GL JS（合规国内源）+ CSS 灰白滤镜，复刻 mateng.world 的 BASE 样式 */}}
 <div class="base-section">
   <p class="base-kicker">BASE</p>
+  <h2 class="base-title">所在地。</h2>
+
 
   <div class="base-map-wrap">
     <div id="base-map"></div>
@@ -27,6 +29,12 @@
   font-size: 12px; font-weight: 700; letter-spacing: .4em;
   color: #9a9a9a; text-transform: uppercase; margin: 0 0 14px;
 }
+.base-title {
+  font-size: 2.4rem; font-weight: 800;
+  color: var(--primary, #1a1a1a);
+  margin: 0 0 16px; line-height: 1.1;
+}
+
 .base-map-wrap {
   position: relative; height: 420px;
   border-radius: 12px; overflow: hidden;
