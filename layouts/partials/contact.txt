@@ -1,0 +1,51 @@
+{{/* 联系方式：复刻 mateng.world 的编号列表风格 */}}
+<div class="base-section" id="contact">
+  <p class="base-kicker">GET IN TOUCH</p>
+  <h2 class="base-title">联系方式。</h2>
+
+  <div class="contact-list">
+    <a class="contact-item" href="mailto:charleswang2005@gmail.com">
+      <span class="contact-num">01</span>
+      <span class="contact-body">
+        <span class="contact-name">Email</span>
+        <span class="contact-desc">charleswang2005@gmail.com</span>
+      </span>
+      <span class="contact-arrow">→</span>
+    </a>
+    <a class="contact-item" href="https://github.com/charleswang2005" target="_blank" rel="noopener">
+      <span class="contact-num">02</span>
+      <span class="contact-body">
+        <span class="contact-name">GitHub</span>
+        <span class="contact-desc">charleswang2005</span>
+      </span>
+      <span class="contact-arrow">→</span>
+    </a>
+    <a class="contact-item" href="https://www.douban.com/people/281172188/" target="_blank" rel="noopener">
+      <span class="contact-num">03</span>
+      <span class="contact-body">
+        <span class="contact-name">豆瓣</span>
+        <span class="contact-desc">看书看电影</span>
+      </span>
+      <span class="contact-arrow">→</span>
+    </a>
+  </div>
+</div>
+
+<style>
+.contact-list { display: flex; flex-direction: column; }
+.contact-item {
+  display: flex; align-items: center; gap: 18px;
+  padding: 18px 6px;
+  border-bottom: 1px solid var(--border, #eee);
+  text-decoration: none;
+  transition: background .2s ease;
+}
+.contact-item:last-child { border-bottom: none; }
+.contact-item:hover { background: #fafafa; }
+.contact-num { font-size: 13px; font-weight: 700; color: #9a9a9a; flex: none; }
+.contact-body { flex: 1; min-width: 0; }
+.contact-name { display: block; font-weight: 700; font-size: 16px; color: var(--primary, #1a1a1a); }
+.contact-desc { display: block; font-size: 13px; color: var(--secondary, #8a8a8a); margin-top: 2px; }
+.contact-arrow { font-size: 18px; color: #9a9a9a; transition: transform .2s ease, color .2s ease; }
+.contact-item:hover .contact-arrow { transform: translateX(5px); color: var(--primary, #1a1a1a); }
+</style>
