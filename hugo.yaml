@@ -56,9 +56,6 @@ menu:
     - name: 👤关于
       url: /about
       weight: 6
-    - name: 📍所在地
-      url: /base
-      weight: 7
 
 params:
   description: "CharlesWang 的个人博客 - 记录技术、生活与思考"

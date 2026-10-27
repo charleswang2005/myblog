@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- end }}
+{{- /* 所在地模块：仅主页显示，整合进 charleswang.top 主页而非独立菜单 */ -}}
+{{- partial "base-map.html" . }}
+{{ end }}
