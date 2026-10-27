@@ -1,12 +1,17 @@
 {{- if not (.Param "hideCustumFooter") }}
 <footer class="footer">
-{{ if .Site.Params.busuanzi.enable -}}
 <div>
-<span id="busuanzi_container_site_pv">
-本站总访问量<span id="busuanzi_value_site_pv"></span>次
-</span>
+<span id="site_pv">本站总访问量 <span id="pv_num">加载中…</span> 次</span>
 </div>
-{{- end -}}
+<script>
+(function(){
+  var el=document.getElementById('pv_num');
+  if(!el) return;
+  fetch('/pv.json?t='+Date.now()).then(function(r){return r.json();}).then(function(d){
+    if(d&&typeof d.pv==='number'){el.textContent=d.pv.toLocaleString('en-US');}
+  }).catch(function(){el.textContent='—';});
+})();
+</script>
 <div>
 <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2026014105号-1</a>
 &nbsp;

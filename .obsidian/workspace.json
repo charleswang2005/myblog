@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/期末/路由交换技术.md",
+                "file": "content/posts/1、简介/竞赛&考证.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "路由交换技术"
+              "title": "竞赛&考证"
             },
             "group": "08a6ac378b797177"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/期末/路由交换技术.md",
+                "file": "content/posts/1、简介/竞赛&考证.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "路由交换技术 的大纲"
+              "title": "竞赛&考证 的大纲"
             },
             "group": "08a6ac378b797177"
           }
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1cffa277ebbe71e6",
@@ -247,6 +246,17 @@
   },
   "active": "c2f6b91429aa8658",
   "lastOpenFiles": [
+    "content/posts/期末/路由交换技术.md",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-99.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-98.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-97.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-91.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-90.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-89.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-88.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-86.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-87.woff2",
+    "static/fonts/lxgw/files/lxgwwenkaimono-regular-subset-85.woff2",
     "Pasted image 20261026122532.png",
     "content/about.md",
     "content/posts/1、简介/简介.md",
@@ -256,7 +266,6 @@
     "content/posts/college/与自己和解.md",
     "copilot/copilot-conversations/调整葡萄糖酸锌用法用量@20261017_091954.md",
     "content/posts/期末/计算机网络安全.md",
-    "content/posts/期末/路由交换技术.md",
     "content/posts/期末/计算机组成原理.md",
     "content/posts/期末/操作系统.md",
     "本地/穿搭.md",
@@ -269,30 +278,19 @@
     "content/posts/考研/意向院校（base on 面试比）.md",
     "content/posts/考试/考试.md",
     "content/posts/游戏/未通关的游戏.md",
-    "content/posts/考研",
     "content/posts/未分类/徐州-上海 冬.md",
     "content/posts/未分类/图木舒克 秋冬.md",
     "content/posts/未分类/日记.md",
     "content/posts/未分类/梦想清单.md",
-    "assets/css/extended/theme-colors.css",
-    "content/posts/游戏",
     "static/favicon-32x32.png",
     "static/favicon-16x16.png",
     "static/apple-touch-icon.png",
-    "本地",
     "static/favicon-96x96.png",
     "static/favicon-48x48.png",
     "7c2f5f941d186a2d641200aa17da4e3d.jpg",
     "屏幕截图 2026-09-18 134515.png",
     "屏幕截图 2026-09-18 134602.png",
     "屏幕截图 2026-09-18 134724.png",
-    "屏幕截图 2026-09-18 134957.png",
-    "content/posts/1、简介",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts",
-    "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
-    "copilot/skills/json-canvas/LICENSE",
     "未命名.canvas"
   ]
 }
