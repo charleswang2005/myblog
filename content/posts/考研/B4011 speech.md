@@ -2,8 +2,8 @@
 draft: false
 series: 考研
 date: 2026-11-08T13:40:14+08:00
-lastmod: 2026-11-08T14:00:23+08:00
-title: B4011 [语言月赛 202407] speech
+lastmod: 2026-11-08T14:02:15+08:00
+title: B4011 speech
 tags:
   - 408代码
 ---
