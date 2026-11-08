@@ -2,7 +2,7 @@
 draft: false
 series: 考研
 date: 2026-11-08T13:40:14+08:00
-lastmod: 2026-11-08T14:03:13+08:00
+lastmod: 2026-11-08T14:25:56+08:00
 title: B4011 speech
 tags:
   - 408代码
@@ -115,7 +115,7 @@ tags:
 using namespace std;
 int main()
     {
-    int n,m;
+    int n,m;//优化：全局定义
     cin>>n>>m;
     int a[1009]={0};
     int b[1009]={0};
@@ -130,11 +130,11 @@ int main()
         }
     for(int i=1;i<=n;i++)
         {
-        c[b[i]]++;
+        c[b[i]]++;//优化：可以先读入到x再统计即可 多余了
         }
     for(int i=1;i<=m;i++)
         {
-        c[i]*=a[i];
+        c[i]*=a[i];//优化：直接再数组b计算即可 
         }
 
         int max=0,ans=0;
