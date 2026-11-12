@@ -109,6 +109,7 @@ tags:
 对于 $20\%$ 的数据，$n,m \le 3$。  
 对于另外 $30\%$的数据，$m = 1$。  
 对于 $100\%$ 的数据，$1 \le n,m \le 10^3$，$0 \leq a_i \leq 10^3$，$1 \leq b_i \leq m$。
+## 代码
 
 ```C++
 #include <bits/stdc++.h>
