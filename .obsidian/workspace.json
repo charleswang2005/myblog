@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/考研/408/代码/26/Day20 P1223 排队接水.md",
+                "file": "content/posts/考研/数学/第十八届全国大学生数学竞赛（非数学A类）初赛解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day20 P1223 排队接水"
+              "title": "第十八届全国大学生数学竞赛（非数学A类）初赛解析"
             },
             "group": "f65e3569046bda6c"
           }
@@ -34,13 +34,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/考研/408/代码/26/Day20 P1223 排队接水.md",
+                "file": "content/posts/考研/数学/第十八届全国大学生数学竞赛（非数学A类）初赛解析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Day20 P1223 排队接水 的大纲"
+              "title": "第十八届全国大学生数学竞赛（非数学A类）初赛解析 的大纲"
             },
             "group": "f65e3569046bda6c"
           }
@@ -243,33 +243,34 @@
   },
   "active": "b749dfd4a821ec23",
   "lastOpenFiles": [
+    "content/posts/期末/路由交换技术.md",
+    "content/posts/考研/408/代码/26/Day27&Day28 B3625 迷宫寻路.md",
+    "content/posts/考研/数学/第十八届全国大学生数学竞赛（非数学A类）初赛解析.md",
+    "content/posts/考研/408/代码/26/Day26 B3612 【深进1.例1】求区间和.md",
+    "content/posts/考研/408/代码/26/Day25 B3965 【语言月赛 202404】 神秘排列.md",
+    "content/posts/考研/408/代码/26/Day24 B3643 图的存储.md",
+    "content/posts/考研/408/代码/26/Day23 B3614 【模板】栈.md",
+    "content/posts/考研/数学",
+    "content/posts/考研/408/代码/26/Day5 B3680 【语言月赛202211】 BAN-PICK.md",
+    "content/posts/考研/408/代码/26/Day4 B3779 【语言月赛202306】 课桌.md",
+    "content/posts/考研/408/代码/26/Day3 B3908 【语言月赛 202312】 异或构造题？.md",
+    "content/posts/考研/408/代码/26/Day1 B4011 【语言月赛 202407】 speech.md",
+    "content/posts/考研/408/代码/26/Day2 B3946 【语言月赛 202403】 2014.md",
+    "content/posts/考研/408/代码/26/Day22 B3616 【模板】队列.md",
+    "content/posts/考研/408/代码/26/Day21 P4913 【深基16.例3】二叉树深度.md",
+    "content/posts/考研/408/代码/26/Day18 B3673 【语言月赛202210】垃圾分类.md",
+    "content/posts/期末/计算机网络安全.md",
+    "content/posts/期末/计算机组成原理.md",
+    "content/posts/考研/408/代码/26/Day20 P1223 排队接水.md",
     "content/posts/考研/408/代码/26/Day11 B2111 基因相关性.md",
     "content/posts/考研/408/代码/26/B3612 【深进1.例1】求区间和.md",
     "content/posts/考研/考研日记.md",
-    "content/posts/考研/408/代码/26/Day20 P1223 排队接水.md",
     "content/posts/考研/408/代码/26/Day12&Day19 B2089 数组逆序重存放.md",
     "content/posts/考研/408/代码/Day18 B3673 【语言月赛202210】垃圾分类.md",
     "content/posts/考研/408/代码/26/Day17 P5738 【深基7.例4】歌唱比赛.md",
     "content/posts/考研/408/代码/26/Day16 P2562 【AHOI2002】Kitty 猫基因编码.md",
     "content/posts/考研/408/代码/26/Day15 B2064 斐波那契数列.md",
-    "content/posts/考研/408/代码/26/Day14 B2127 求正整数 2 和 n 之间的完全数.md",
-    "content/posts/考研/408/代码/26/Day13 P5739 【深基7.例7】计算阶乘.md",
-    "content/posts/考研/408/代码/26/P5728 【深基5.例5】旗鼓相当的对手.md",
-    "content/posts/考研/408/代码/26/P5726 打分.md",
-    "content/posts/考研/408/代码/26/B5736 质数晒.md",
-    "content/posts/考研/408/代码/26/B4011 speech.md",
-    "content/posts/考研/408/代码/26/B3908 异或构造题？.md",
-    "content/posts/考研/408/代码/26/B3946 2014.md",
-    "content/posts/考研/408/代码/26/B3779 课桌.md",
-    "content/posts/考研/408/代码/26/B3680 BAN-PICK.md",
-    "content/posts/考研/408/代码/26/B3674 标题修改.md",
     "content/posts/考研/408/代码/26",
-    "content/posts/考研/408/代码/P5728 【深基5.例5】旗鼓相当的对手.md",
-    "content/posts/考研/408/代码/B3612 【深进1.例1】求区间和.md",
-    "本地/穿搭.md",
-    "content/posts/考研/408/代码/B3674 标题修改.md",
-    "content/posts/考研/408/代码/B5736 质数晒.md",
-    "content/posts/考研/408/代码/P5726 打分.md",
     "content/posts/考研/408/代码",
     "content/posts/考研/408",
     "layouts/partials/contact.html",
@@ -278,7 +279,6 @@
     "layouts/partials/pet.html",
     "layouts/index.html",
     "layouts/partials/base-map.html",
-    "layouts/shortcodes/base-map.html",
     "Pasted image 20261026122532.png",
     "static/favicon-32x32.png",
     "static/favicon-16x16.png",
