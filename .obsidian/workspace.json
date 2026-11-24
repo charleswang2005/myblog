@@ -6,7 +6,6 @@
       {
         "id": "ec47a0a9eac03895",
         "type": "tabs",
-        "dimension": 74.35897435897436,
         "children": [
           {
             "id": "b749dfd4a821ec23",
@@ -16,8 +15,7 @@
               "state": {},
               "icon": "bookmark",
               "title": "Pkmer Market"
-            },
-            "group": "f65e3569046bda6c"
+            }
           },
           {
             "id": "6a2aff42b76cccc0",
@@ -35,29 +33,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "1d140383cdf5db6f",
-        "type": "tabs",
-        "dimension": 25.64102564102564,
-        "children": [
-          {
-            "id": "f0b82b5fadfaa3ec",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "content/posts/考研/数学/第十八届全国大学生数学竞赛（非数学A类）初赛解析.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "第十八届全国大学生数学竞赛（非数学A类）初赛解析 的大纲"
-            },
-            "group": "f65e3569046bda6c"
-          }
-        ]
       }
     ],
     "direction": "vertical"
