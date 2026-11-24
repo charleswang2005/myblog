@@ -3,7 +3,7 @@ draft: false
 series: 未分类
 title: 第十八届全国大学生数学竞赛（非数学A类）初赛解析
 date: 2026-11-17T14:03:44+08:00
-lastmod: 2026-11-19T10:18:42+08:00
+lastmod: 2026-11-19T10:54:43+08:00
 ---
 # 一
 
@@ -166,9 +166,47 @@ f(x,-x)=\frac{1}{2}(x-x)^{2}-(-x)^{3}=x^{3}.
 $$
 
 当 $x>0$ 时 $f(x,-x)>0$，当 $x<0$ 时 $f(x,-x)<0$，故在 $(0,0)$ 的任意邻域内 $f$ 既有大于 $f(0,0)$ 的点，也有小于 $f(0,0)$ 的点，因此 $f(0,0)$ 不是极值。
+# 三、求微分方程 $x^{2}y'+xy=y^{2}\ln x\ (x>0)$ 的全部解。
+**知识点**
 
+凑微分 $x^{2}y'+xy=x(xy)'$；变量可分离方程两边积分；分部积分。
 
+**步骤**
 
+$$
+x^{2}y'+xy=x(xy)'\ \Longrightarrow\ x(xy)'=y^{2}\ln x\ \Longrightarrow\ (xy)'=\frac{(xy)^{2}\ln x}{x^{3}}
+$$
 
+令 $w=xy$，分离变量：
 
+$$
+\frac{\mathrm{d}w}{w^{2}}=\frac{\ln x}{x^{3}}\mathrm{d}x
+$$
 
+两边积分，其中
+
+$$
+\int\frac{\ln x}{x^{3}}\mathrm{d}x=-\frac{\ln x}{2x^{2}}-\frac{1}{4x^{2}}
+$$
+
+得
+
+$$
+-\frac{1}{xy}=-\frac{\ln x}{2x^{2}}-\frac{1}{4x^{2}}-C
+$$
+
+两边乘 $-x$：
+
+$$
+\frac{1}{y}=Cx+\frac{2\ln x+1}{4x}\ \Longrightarrow\ y=\frac{4x}{4Cx^{2}+2\ln x+1}
+$$
+
+又 $y\equiv0$ 满足原方程，亦为解。
+
+**答案**
+
+$$
+y=\frac{4x}{4Cx^{2}+2\ln x+1}\qquad\text{及}\qquad y\equiv0\qquad(x>0)
+$$
+
+（$C$ 为任意常数，且使分母不为零。）
