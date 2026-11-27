@@ -2,7 +2,7 @@
 draft: false
 series: 未分类
 date: 2026-11-27T00:34:10+08:00
-lastmod: 2026-11-27T00:42:50+08:00
+lastmod: 2026-11-27T00:58:05+08:00
 title: 十七届蓝桥杯大赛软件赛校赛C&C++
 ---
 # 1. 放苹果
@@ -21,5 +21,31 @@ int main(){
 【题目描述】
 蓝桥学院正在组织一场程序设计交流活动，总共有n名学生参加，每名学生有一个编号ai。为了促进交流，学院决定将这些学生按顺序划分成若干个连续的小组（即子区间），每个小组内必须满足奇数编号的学生个数等于偶数编号的学生个数，你必须保证每位学生都属于某一个小组。
 现在，请你计算出最多能划分出多少个这样的小组。如果无法将所有学生划分成满足条件的小组，则输出-1。
-【解法】
-首先考虑为了让组数最多，那么就需要2个2个凑一组，这样组成的数量是最多的，所以用odd变量记录奇数个数，even变量记录偶数个数，若odd==even，那么答案就是对应odd或even值，否则就是-1。（可证明两者不相等就凑不出）
+## 代码
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+int a[100010];
+signed main()
+{
+	int n;
+	cin >> n;
+	int odd = 0, even = 0, ans = 0;
+	for(int i = 1; i <= n; i++)
+	{
+		cin >> a[i];
+		if(a[i] % 2 == 0) even++;
+		else odd++;
+		if(odd == even)
+		{
+			ans++;
+			odd = 0;
+			even = 0;
+		}
+	}
+	if(odd == 0 && even == 0) cout << ans << endl;
+	else cout << -1 << endl;
+    return 0;
+}
+```
